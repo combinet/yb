@@ -27,7 +27,7 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 카드에 약간의 그림자 효과 추가 */
   border-style: solid;
   width: 1280px;
-  height: 720px;
+  /* height: 720px; */
 }
 
 /* 제목 스타일 */
