@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+/* 텍스트 스타일 */
+h2,
+ul li {
+  font-family: 맑은고딕;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* 텍스트에 약간의 그림자 효과 추가 */
+  /*
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5),
+    -1px -1px 1px rgba(0, 0, 0, 0.3);
+  */
+}
+
+/* 카드 형식 섹션 스타일 */
+section {
+  display: block;
+  padding: 20px 200px 20px 50px;
+  margin: 20px;
+  border-radius: 5px;
+  background-image: url("./granite_texture_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 카드에 약간의 그림자 효과 추가 */
+  border-style: solid;
+  width: 1280px;
+  height: 720px;
+}
+
+/* 제목 스타일 */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* 목록 스타일 */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
